@@ -18,4 +18,4 @@ if __name__ == "__main__":
         data_dict[id_] = {
             item: data["data"]["children"][id_]["data"][item] for item in wanted_data
         }
-    return data_dict
+    return data_dict#nice
