@@ -9,7 +9,7 @@ if __name__ == "__main__":
     title, desc, image_title = random_anime_character()
     print(f"{title}\n\n{desc}\n\nImage saved : {image_title}")
 
- data = response.json()
+ data = response.json()#good
     if not wanted_data:
         return {id_: data["data"]["children"][id_] for id_ in range(limit)}
 
